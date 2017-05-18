@@ -74,6 +74,6 @@ def getpath(args, dst):
 if __name__ == '__main__':
     cmdversion(args)
     cmdhelp(args)
-    getpath(args, dst)
+    getpath(args, dst) 
 
 
