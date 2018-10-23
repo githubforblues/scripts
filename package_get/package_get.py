@@ -19,7 +19,7 @@ parser.add_argument('-i', dest='intelligent', action='store_true', help='upload 
 parser.add_argument('-p', dest='pattern', help='pattern package filename')
 args = parser.parse_args()
 
-package_source = "121.40.164.11"
+package_source = "192.168.0.1"
 package_dir = "/data/update"
 package_auto_upload_time = "1d"
 
